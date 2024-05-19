@@ -52,7 +52,7 @@ body{
 }
 
 .main-body{
-  height: 500px;
+  height: 600px;
   
 }
 
@@ -61,7 +61,28 @@ body{
   font-size: 40px;
 }
 
+.body-items{
+  display: flex;
+  justify-content: center;
+}
+
+.body-items-card{
+  margin: 20px;
+  height: 450px;
+  background-image: url("./../images/cake-card-img.jpg");
+  background-position: center;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.body-card-text{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+}
+
 .main-footer{
+  margin-top: 10px;
   background-color: #f7d638;
   height: 100px;
   
