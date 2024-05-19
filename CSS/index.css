@@ -25,7 +25,7 @@
   
 
 body{
-   background-color: #fafafa;
+   background-color: #dacdc4;
    margin: 0;
 }
 
@@ -43,7 +43,7 @@ body{
 
 .menu-text{
     text-decoration: none;
-    color: #fff;
+    color: #01090c;
     margin: 20px;
     font-size: 20px;
 }
