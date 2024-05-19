@@ -25,7 +25,7 @@
   
 
 body{
-   background-color: #dacdc4;
+   background-color: #fafafa;
    margin: 0;
 }
 
@@ -34,11 +34,14 @@ body{
     background-image: url("./../images/bg-img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
 }
 
 .menu-items{
     text-align: end;
     cursor: pointer;
+    background-color: orange;
 }
 
 .menu-text{
@@ -48,9 +51,23 @@ body{
     font-size: 20px;
 }
 
-.tagline{
-    color: #fff;
+.main-body{
+  height: 500px;
+  
 }
 
+.title{
+  text-align: center;
+  font-size: 40px;
+}
 
+.main-footer{
+  background-color: #f7d638;
+  height: 100px;
+  
+}
+
+.demo{
+  text-align: center;
+}
     
