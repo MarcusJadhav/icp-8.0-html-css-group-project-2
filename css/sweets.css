@@ -1,3 +1,11 @@
+.sweets-container{
+    background-color: chartreuse;
+}
+
+.sweets-cards{
+    display: flex;
+    justify-content: center;
+}
 
 .sweets-items{
     height: 450px;
