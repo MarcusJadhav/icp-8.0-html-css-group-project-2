@@ -1,21 +1,45 @@
 .sweets-container{
-    background-color: chartreuse;
+    height: 500px;
 }
 
 .sweets-cards{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .sweets-items{
-    height: 450px;
+    
     width: 300px;
     border-radius: 10px;
-    background-color: aqua;
+   
     margin: 10px;
 }
 
 .chocolate-cake{
     width: 300px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
+}
+
+.ice-cake{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.pineapple-cake{
+    object-fit: cover;
+    width: 300px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.velvet-cake{
+    object-fit: cover;
+    width: 300px;
+    height: 225px;
+    border-radius: 10px;
+}
+
+.sweet-title{
+    text-align: center;
+    font-size: 40px;
 }
