@@ -69,16 +69,35 @@ body{
 .body-items-card{
   margin: 20px;
   height: 450px;
-  background-image: url("./../images/cake-card-img.jpg");
-  background-position: center;
   width: 300px;
   border-radius: 10px;
+}
+
+.sweets{
+  background-image: url("./../images/cake-card-img.jpg");
+  background-position: center;
+}
+
+.burger{
+  background-image: url("./../images/burger-card-img.jpg");
+  background-position: center;
+}
+
+.drinks{
+  background-image: url("./../images/drinks-card-img.jpg");
+  background-position: center;
+}
+
+.pizza{
+  background-image: url("./../images/pizza-card-img.jpg");
+  background-position: center;
 }
 
 .body-card-text{
   text-align: center;
   font-size: 50px;
   color: #fff;
+  
 }
 
 .main-footer{

@@ -1,0 +1,13 @@
+
+.sweets-items{
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+.chocolate-cake{
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+}
