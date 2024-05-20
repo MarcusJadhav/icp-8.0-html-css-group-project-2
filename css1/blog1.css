@@ -8,6 +8,14 @@ body {
     background-color: #f8f8f8;
     margin: 0;
 }
+.main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
 .container1 {
     display: flex;
     flex-wrap: wrap;
