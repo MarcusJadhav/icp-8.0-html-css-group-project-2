@@ -41,8 +41,9 @@ body{
 .menu-items{
     text-align: end;
     cursor: pointer;
-    background-color: rgb(249, 252, 102);
-    height: 60px;
+    background-color: #e3f2d4;
+    height: 70px;
+    width: 100%;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -115,12 +116,101 @@ body{
 
 .main-footer{
   margin-top: 10px;
-  background-color: #f7d638;
-  height: 100px;
-  
+  background-color: #e3f2d4;
+  height: 300px;
+  display: flex;
+  font-size: 20px;
 }
 
-.demo{
-  text-align: center;
+.map{
+  margin: 10px;
 }
-    
+
+.footer-values{
+  margin-left: 100px;
+}
+
+.social-media{
+  width: 40px;
+  margin: 0 10px 0 10px;
+}
+ 
+ /* Small Devices  */
+ @media screen and (max-width: 600px) {}
+
+/* Normal Devices  */
+@media screen and (min-width: 601px) and (max-width: 768px) {}
+
+/* Tablets Devices  */
+@media screen and (min-width: 769px) and (max-width: 992px) {}
+
+/* Large Devices  */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: rgb(249, 252, 102);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+}
+
+.menu-title{
+  font-size: 30px;
+  margin-right: 60px;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 20px;
+}
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1700px){
+  .main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: rgb(249, 252, 102);
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: fixed;
+}
+
+.menu-title{
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 20px;
+}
+}
