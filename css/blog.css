@@ -8,6 +8,7 @@ body {
     background-color: #f8f8f8;
     margin: 0;
 }
+
 .container1 {
     display: flex;
     flex-wrap: wrap;
@@ -79,3 +80,10 @@ body {
     margin: 10px 0;
     color: #e67e22;
 }
+.main-footer{
+    margin-top: 10px;
+    background-color: #f7d638;
+    height: 100px;
+    
+  }
+  
