@@ -83,7 +83,10 @@ transform: 200ms;
     margin: 10px 0;
     color:rgb(35, 121, 40);
 }
+.product-author{
 
+    text-align: right;
+}
 .product-description {
     font-size: 1em;
     margin: 20px;
@@ -93,7 +96,14 @@ transform: 200ms;
 .product-date {
     font-size: 1.2em;
     margin: 10px 0;
-    color: #e67e22;
+    color: #ee4d25;
+    text-align: left;
+  
+}
+.calender{
+    height: 25px;
+
+    
 }
 .video{
     border: 1px solid #ccc;
