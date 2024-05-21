@@ -22,8 +22,12 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
+  text-decoration: wavy;
   font-variation-settings:
     "GRAD" 0;
+}
+#heading{
+  text-decoration: wavy;
 }
 
 body{
@@ -33,7 +37,6 @@ body{
 
 .title{
   text-align: center;
-
 }
 
 #image{
