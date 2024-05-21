@@ -1,7 +1,3 @@
-body{
-    background-color: tomato;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika:wght@300..700&display=swap');
 
@@ -29,7 +25,7 @@ body{
   
 
 body{
-   background-color: #fafafa;
+   background-color: #fafafaa9;
    margin: 0;
 }
 
@@ -63,6 +59,7 @@ body{
 .title{
   text-align: center;
   font-size: 40px;
+  
 }
 
 .body-items{
@@ -92,11 +89,13 @@ body{
 .drinks{
   background-image: url("./../images/drinks-card-img.jpg");
   background-position: center;
+  text-decoration: none;
 }
 
 .pizza{
   background-image: url("./../images/pizza-card-img.jpg");
   background-position: center;
+  text-decoration: none;
 }
 
 .body-card-text{
