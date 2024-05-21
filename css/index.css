@@ -1,3 +1,118 @@
 body{
     background-color: tomato;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika:wght@300..700&display=swap');
+
+.cherry-swash-regular {
+    font-family: "Cherry Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cherry-swash-bold {
+    font-family: "Cherry Swash", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .signika {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "GRAD" 0;
+  }
+  
+  
+
+body{
+   background-color: #fafafa;
+   margin: 0;
+}
+
+.main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: orange;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.main-body{
+  height: 600px;
+  
+}
+
+.title{
+  text-align: center;
+  font-size: 40px;
+}
+
+.body-items{
+  display: flex;
+  justify-content: center;
+}
+
+.body-items-card{
+  margin: 20px;
+  height: 450px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.sweets{
+  background-image: url("./../images/cake-card-img.jpg");
+  background-position: center;
+  text-decoration: none;
+}
+
+.burger{
+  background-image: url("./../images/burger-card-img.jpg");
+  background-position: center;
+  text-decoration: none;
+}
+
+.drinks{
+  background-image: url("./../images/drinks-card-img.jpg");
+  background-position: center;
+}
+
+.pizza{
+  background-image: url("./../images/pizza-card-img.jpg");
+  background-position: center;
+}
+
+.body-card-text{
+  text-align: center;
+  font-size: 50px;
+  color: #fff;  
+}
+
+.main-footer{
+  margin-top: 10px;
+  background-color: #f7d638;
+  height: 100px;
+  
+}
+
+.demo{
+  text-align: center;
+}
+    
