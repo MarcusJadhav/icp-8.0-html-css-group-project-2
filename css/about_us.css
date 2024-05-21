@@ -36,6 +36,13 @@ body{
 
 }
 
+#image{
+  height:400px;
+  display: inline-block;
+  padding-left:35px ;
+}
+
+
 .menu-items{
     text-align: end;
     cursor: pointer;
