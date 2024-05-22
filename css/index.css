@@ -136,7 +136,70 @@ body{
 @media screen and (min-width: 601px) and (max-width: 768px) {}
 
 /* Tablets Devices  */
-@media screen and (min-width: 769px) and (max-width: 992px) {}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .body{
+    position: relative;
+  }
+
+  .main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: #e3f2d4;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-title{
+  font-size: 20px;
+  margin-right: 60px;
+  position: absolute;
+  left: 1%;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.body-items-card{
+  margin: 20px;
+  height: 380px;
+  width: 250px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
+}
+
+.main-footer{
+  margin-top: 10px;
+  background-color: #e3f2d4;
+  height: 300px;
+  display: flex;
+  font-size: 20px;
+}
+
+.map{
+  margin: 10px;
+}
+
+.footer-values{
+  margin-left: 80px;
+}
+}
 
 /* Large Devices  */
 @media screen and (min-width: 993px) and (max-width: 1200px) {
@@ -175,7 +238,7 @@ body{
     text-decoration: none;
     color: #01090c;
     margin: 20px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .body-items-card{
