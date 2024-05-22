@@ -1,10 +1,9 @@
 
-    
-
-
-@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika:wght@300..700&display=swap');
- 
+body{
+  font-family:Inter;
+   background-color: #fafafa;
+   margin: 0;
+}
 .cherry-swash-regular {
   font-family: "Cherry Swash", serif;
   font-weight: 400;
@@ -22,47 +21,85 @@
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-  text-decoration: wavy;
   font-variation-settings:
     "GRAD" 0;
 }
-
-body{
-   background-color: #fafafa;
-   margin: 0;
-}
-
-.title{
-  text-align: center;
-}
-
-#image{
-  height:400px;
-  display: inline-block;
-  padding-left:35px ;
-}
-
-
 .menu-items{
-    text-align: end;
-    cursor: pointer;
-    background-color: orange;
+  text-align: end;
+  cursor: pointer;
+  background-color: orange;
 }
 
 .menu-text{
-    text-decoration: none;
-    color: #01090c;
-    margin: 20px;
-    font-size: 20px;
+  text-decoration: none;
+  color: #01090c;
+  margin: 20px;
+  font-size: 20px;
 }
+
+
+.title{
+  text-align: left;
+  margin-left:40px;
+  margin-top:40px;
+  text-decoration:underline;
+  color: #bcec63;
+}
+#image{
+  height: 400px;
+  width:200px;
+}
+#delux{
+  background-color: rgb(222, 247, 129);
+  text-decoration: tomato underline;
+}
+#card1{
+  display: inline-block;
+  height:250px;
+  margin-left: 50px;
+  text-align: center;
+  padding-left:200px;
+  padding-right:200px;
+}
+#card{
+  display: inline-block;
+  height:400px;
+  width:380px;
+  margin-left:65px;
+  border: solid 1px black;
+  box-shadow: 2px 5px 10px rgb(66, 64, 64) ;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom:100px;
+}
+.c1{
+  height: 400px;
+  padding-left:10px;
+  padding-right:10px;
+  border: solid 1px black;
+}
+#card:hover{
+  box-shadow: 5px 6px 12px rgb(15, 15, 15) ;
+}
+#img{
+  padding-top:15px;
+  height: 125px;
+}
+#img:hover{
+  
+}
+.text{
+  text-align: center;
+}
+.bodytext{
+  padding-left: 10px;
+  padding-right:10px;
+  text-align:left;
+}
+
 .main-footer{
   margin-top: 10px;
   background-color: #f7d638;
   height: 100px;
   
 }
-
-.demo{
-  text-align: center;
-}
-    
