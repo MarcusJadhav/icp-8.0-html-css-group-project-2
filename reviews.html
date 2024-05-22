@@ -18,13 +18,13 @@
             background-color:#fff;
             text-align: center;
             padding:3px 5px;
-            box-shadow: 0 0 10px 5px #ffcccc;
+            box-shadow: 0 0 10px 5px #ffd6cc;
             transition: 1s;
             margin:10px;
             border-radius: 10px;
         }
         .box:hover{
-        box-shadow: 1px 1px 10px 5px green;
+        box-shadow: 1px 1px 10px 5px #009933;
       }
         .box img{
       height:140px;
@@ -42,10 +42,22 @@
       .header{
         text-align: center;
       }
+      .btn{
+        border:1px solid black;
+        padding:5px 10px;
+        border-radius: 20px 0 20px 0;
+        background-color: #ffd6cc;
+        color:#ff3300;
+      }
+      .btn:hover{
+        color: #009933;
+        background-color: #ccffdd;
+        transition: 1s;
+      }
     </style>
 </head>
 <body>
-    <h1 class="header">Customer's Review</h1>
+    <h1 class="header">Customer's <span class="btn">Review</span></h1>
     <div class="wrapper">
         <div class="box">
             <img  class="imge" src="img1.avif"/>
