@@ -136,4 +136,27 @@ transform: 200ms;
     height: 100px;
     
   }
-  
+        /* Mobile Devices */
+
+        @media screen and (min-width: 600px) and (max-width: 768px) {
+            .btn {
+              background-color: aquamarine;
+            }
+          }
+    
+          /* Tablet Devices */
+    
+          @media screen and (min-width: 769px) and (max-width: 992px) {
+            .btn {
+              background-color: blue;
+            }
+          }
+    
+          /* Dekstop device */
+    
+          @media screen and (min-width: 993px) and (max-width: 1200px) {
+            .btn {
+              background-color: chartreuse;
+            }
+          }
+    
