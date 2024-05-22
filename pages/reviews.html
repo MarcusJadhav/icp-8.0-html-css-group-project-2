@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+    <style>
+        body{
+            margin:0px ;
+            padding:0px;
+        }
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        .box{
+            width:400px;
+            background-color:#fff;
+            text-align: center;
+            padding:3px 5px;
+            box-shadow: 0 0 10px 5px #ffcccc;
+            transition: 1s;
+            margin:10px;
+            border-radius: 10px;
+        }
+        .box:hover{
+        box-shadow: 1px 1px 10px 5px green;
+      }
+        .box img{
+      height:140px;
+      width:140px;
+      border-radius: 50%;
+       }
+        .box p{
+        padding:15px 0;
+        font-size: 20px;
+       }
+       .box h2{
+        padding:15px 0;
+        font-size: 30px;
+      }
+      .header{
+        text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <h1 class="header">Customer's Review</h1>
+    <div class="wrapper">
+        <div class="box">
+            <img  class="imge" src="img1.avif"/>
+            <p>I have tried many pizza places in the area but none compare to the quality and taste of New York Pizza and Pasta</p>
+            <h2>Pooja</h2>
+        </div>
+        <div class="box">
+            <img  class="imge" src="imge3.jpeg"/>
+            <p>Freshly made slice. Good dough. Was very tasty. Would visit again.</p>
+            <h2>Yash</h2>
+        </div>
+        <div class="box">
+            <img  class="imge" src="img5.jpeg"/>
+            <p>Better than any burger in the east bay!!!</p>
+            <h2>Nikhil</h2>
+        </div>
+    </div>
+</body>
+</html>
