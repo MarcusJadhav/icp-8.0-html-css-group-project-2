@@ -60,23 +60,15 @@ body {
       margin: 20px;
       font-size: 20px;
   }  
-  .title{
-    color: #e67e22;
-    transform: 200ms;
-    position: absolute;
-    left: 0%;
-    }
-    .title:hover{
-        color: #f7d638;
-    
-    }
+
+
     .subtitle{
         text-align: center;
         transform: 200ms;
         color: #e67e22;
 
     }
-    
+
     .subtitle:hover{
         color: #f7d638;
     
@@ -177,7 +169,10 @@ body {
     height: 20px;
     
 }
-
+.title{
+    text-align: center;
+    
+}
 .video{
     border: 1px solid #ccc;
     border-radius : 9px;
