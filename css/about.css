@@ -1,56 +1,24 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika:wght@300..700&display=swap');
+
 body{
-  font-family:Inter;
-   background-color: #fafafa;
+   background-color: #fafafaa9;
    margin: 0;
 }
-.cherry-swash-regular {
-  font-family: "Cherry Swash", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.cherry-swash-bold {
-  font-family: "Cherry Swash", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.signika {
-  font-family: "Signika", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
-}
-.menu-items{
-  text-align: end;
-  cursor: pointer;
-  background-color: orange;
-}
-
-.menu-text{
-  text-decoration: none;
-  color: #01090c;
-  margin: 20px;
-  font-size: 20px;
-}
-
-
 .title{
   text-align: left;
   margin-left:40px;
   margin-top:40px;
   text-decoration:underline;
-  color: #bcec63;
+  color: #ecf87b;
 }
 #image{
   height: 400px;
   width:200px;
 }
 #delux{
-  background-color: rgb(222, 247, 129);
+  background-color: rgb(253, 246, 144);
   text-decoration: tomato underline;
 }
 #card1{
@@ -58,6 +26,7 @@ body{
   height:250px;
   margin-left: 50px;
   text-align: center;
+  font-family: signika;
   padding-left:200px;
   padding-right:200px;
 }
@@ -65,6 +34,7 @@ body{
   display: inline-block;
   height:400px;
   width:380px;
+  font-family: signika;
   margin-left:65px;
   border: solid 1px black;
   box-shadow: 2px 5px 10px rgb(66, 64, 64) ;
@@ -90,16 +60,87 @@ body{
 }
 .text{
   text-align: center;
+  font-family: signika;
 }
 .bodytext{
   padding-left: 10px;
   padding-right:10px;
+  font-family: signika;
   text-align:left;
 }
 
+
+
+
+
+.cherry-swash-regular {
+    font-family: "Cherry Swash", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .cherry-swash-bold {
+    font-family: "Cherry Swash", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .signika {
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+      "GRAD" 0;
+  }
+  
+  
+
+body{
+   background-color: #fafafaa9;
+   margin: 0;
+}
+
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: #e3f2d4;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-title{
+  font-size: 40px;
+  margin-right: 630px;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 20px;
+}
 .main-footer{
   margin-top: 10px;
-  background-color: #f7d638;
-  height: 100px;
-  
+  background-color: #e3f2d4;
+  height: 300px;
+  display: flex;
+  font-size: 20px;
+}
+
+.map{
+  margin: 10px;
+}
+
+.footer-values{
+  margin-left: 80px;
+}
+
+.social-media{
+  width: 40px;
+  margin: 0 10px 0 10px;
 }
