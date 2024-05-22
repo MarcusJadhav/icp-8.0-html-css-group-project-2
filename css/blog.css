@@ -6,6 +6,10 @@ body {
 .product-body{
     height: 80%;
 }
+.main-header1{
+    background-image: url("./../images/bg-image.png");
+
+}
 .container1 {
     display: flex;
     flex-wrap: wrap;
@@ -62,8 +66,8 @@ body {
 }
 
 .product-image {
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     border-radius: 5px;
 
 }
@@ -93,14 +97,30 @@ transform: 200ms;
 .product-date {
     font-size: 1.2em;
     margin: 10px 0;
-    color: #e67e22;
+    color: #ee4d25;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+}
+.calender{
+    height: 25px;
+    display: flex;
+    
+}
+.product-author{
+    text-align: right;
+    justify-content: end;
+    display: flex;
+}
+.author{
+    height: 20px;
+    
 }
 .video{
     border: 1px solid #ccc;
     border-radius : 9px;
     padding: 20px;
     margin: 10px;
-    text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s;
     cursor: pointer;
