@@ -6,6 +6,10 @@ body {
 .product-body{
     height: 80%;
 }
+.main-header{
+    background-image: url("./../images/bg-1.jpg");
+
+}
 .container1 {
     display: flex;
     flex-wrap: wrap;
@@ -83,10 +87,7 @@ transform: 200ms;
     margin: 10px 0;
     color:rgb(35, 121, 40);
 }
-.product-author{
 
-    text-align: right;
-}
 .product-description {
     font-size: 1em;
     margin: 20px;
@@ -98,11 +99,21 @@ transform: 200ms;
     margin: 10px 0;
     color: #ee4d25;
     text-align: left;
-  
+    display: flex;
+    justify-content: left;
 }
 .calender{
     height: 25px;
-
+    display: flex;
+    
+}
+.product-author{
+    text-align: right;
+    justify-content: end;
+    display: flex;
+}
+.author{
+    height: 25px;
     
 }
 .video{
