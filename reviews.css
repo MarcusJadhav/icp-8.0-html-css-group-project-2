@@ -47,3 +47,236 @@ color: #009933;
 background-color: #ccffdd;
 transition: 1s;
 }
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika:wght@300..700&display=swap');
+  
+
+body{
+   background-color: #fafafaa9;
+   margin: 0;
+}
+
+.main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: #e3f2d4;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.main-body{
+  height: 600px;
+  
+}
+
+
+.main-footer{
+  margin-top: 10px;
+  background-color: #e3f2d4;
+  height: 300px;
+  display: flex;
+  font-size: 20px;
+}
+
+.map{
+  margin: 10px;
+}
+
+.footer-values{
+  margin-left: 80px;
+}
+
+.social-media{
+  width: 40px;
+  margin: 0 10px 0 10px;
+}
+ 
+ /* Small Devices  */
+ @media screen and (max-width: 600px) {}
+
+/* Normal Devices  */
+@media screen and (min-width: 601px) and (max-width: 768px) {}
+
+/* Tablets Devices  */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .body{
+    position: relative;
+  }
+
+  .main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: #e3f2d4;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-title{
+  font-size: 20px;
+  margin-right: 60px;
+  position: absolute;
+  left: 1%;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 14px;
+}
+
+.body-items-card{
+  margin: 20px;
+  height: 380px;
+  width: 250px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
+}
+
+.main-footer{
+  margin-top: 10px;
+  background-color: #e3f2d4;
+  height: 300px;
+  display: flex;
+  font-size: 20px;
+}
+
+.map{
+  margin: 10px;
+}
+
+.footer-values{
+  margin-left: 80px;
+}
+}
+
+/* Large Devices  */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .body{
+    position: relative;
+  }
+
+  .main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: #e3f2d4;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-title{
+  font-size: 20px;
+  margin-right: 60px;
+  position: absolute;
+  left: 1%;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.body-items-card{
+  margin: 20px;
+  height: 380px;
+  width: 250px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
+}
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1700px){
+  .body{
+    position: relative;
+  }
+
+  .main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: #e3f2d4;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-title{
+  font-size: 30px;
+  margin-left: 20px;
+  position: absolute;
+  left: 0%;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.main-footer{
+  margin-top: 10px;
+  background-color: #e3f2d4;
+  height: 300px;
+  display: flex;
+  font-size: 20px;
+}
+
+.map{
+  margin: 10px;
+}
+
+.footer-values{
+  margin-left: 80px;
+}
