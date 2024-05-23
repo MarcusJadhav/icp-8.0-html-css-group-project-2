@@ -92,6 +92,10 @@ body{
   background-size:cover;
 }
 
+.body-items-card:hover{
+  box-shadow: 0 0 10px 5px #3ccafc;
+  background-size: contain;
+}
 .sweets{
   background-image: url("./../images/cake-card-img.jpg");
 }
