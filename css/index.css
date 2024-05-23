@@ -75,7 +75,6 @@ body{
 .body-items{
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .body-items-card{
@@ -85,6 +84,7 @@ body{
   border-radius: 10px;
   background-position: center;
   text-decoration: none;
+  background-size:cover;
 }
 
 .sweets{
@@ -117,6 +117,10 @@ body{
   font-size: 20px;
 }
 
+.footer-items{
+  display: flex;
+}
+
 .map{
   margin: 10px;
 }
@@ -131,71 +135,162 @@ body{
 }
  
  /* Small Devices  */
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) 
+  { 
+    .body{
+    position: relative;
+    
+  }
   
-
   .main-header{
     height: 500px;
     background-image: url("./../images/bg-img.jpg");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-blend-mode: saturation;
     margin-bottom: 10px;
-}
-
-.menu-items{
-   display: none;
-}
-
-.menu-title{
-  font-size: 20px;
-  margin-right: 60px;
-}
-
-
-
-.body-items-card{
+  }
+  
+  .menu-items{
+    display: none;
+  }
+  
+  .menu-title{
+  display: none;
+  }
+  
+  .menu-text{
+    display: none;
+  }
+  .main-body{
+    height: 50%
+  }
+  .body-items{
   display: flex;
-  margin: 10px;
-  height: 280px;
-  width: 200px;
+  flex-wrap: wrap;
+  }
+  
+  .body-items-card{
+  margin: 20px;
+  height: 360px;
+  width: 270px;
   border-radius: 10px;
   background-position: center;
   text-decoration: none;
-  justify-content: center;
-  align-items: end;
-}
-
-.body-card-text{
-  font-size: 40px;
-}
-
-.main-footer{
-  margin-top: 10px;
+  }
+  
+  .main-footer{
+  margin-top: 20px;
   background-color: #e3f2d4;
-  height: 300px;
+  height: 500px;
   display: flex;
   font-size: 20px;
-}
-
-.map{
-  margin: 5px;
+  flex-wrap: wrap;
+  }
+  
+  .footer-items{
+  display: flex;
+  flex-wrap: wrap;
+  }
+  
+  .map{
+  margin: 10px;
   height: 250px;
-}
-
-.footer-values{
-  margin-left: 15px;
-  font-size: 10px;
-}
-
-.social-media{
-  width: 15px;
-  margin-bottom: 5px;
-}
+  width: 300px;
+  }
+  
+  .footer-values{
+  margin-left: 20px;
+  font-size: 15px;
+  }
+  
+  .social-media{
+  height: 30px;
+  }
  }
 
 /* Normal Devices  */
-@media screen and (min-width: 601px) and (max-width: 768px) {}
+@media screen and (min-width: 601px) and (max-width: 768px) 
+{ 
+  .body{
+  position: relative;
+  
+}
+
+.main-header{
+  height: 500px;
+  background-image: url("./../images/bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: saturation;
+  margin-bottom: 10px;
+}
+
+.menu-items{
+  text-align: end;
+  cursor: pointer;
+  background-color: #e3f2d4;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.menu-title{
+display: none;
+}
+
+.menu-text{
+  text-decoration: none;
+  color: #01090c;
+  margin: 10px;
+  font-size: 15px;
+}
+.main-body{
+  height: 50%
+}
+.body-items{
+display: flex;
+flex-wrap: wrap;
+}
+
+.body-items-card{
+margin: 20px;
+height: 360px;
+width: 270px;
+border-radius: 10px;
+background-position: center;
+text-decoration: none;
+}
+
+.main-footer{
+margin-top: 20px;
+background-color: #e3f2d4;
+height: 430px;
+font-size: 18px;
+}
+
+.footer-items{
+display: flex;
+flex-wrap: wrap;
+margin: 10px;
+height: 300px;
+}
+
+.map{
+margin: 10px;
+}
+
+.footer-values{
+margin-left: 20px;
+font-size: 16px;
+}
+
+.social-media{
+height: 30px;
+}
+}
 
 /* Tablets Devices  */
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -238,21 +333,32 @@ body{
     font-size: 18px;
 }
 
+.body-items{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
 .body-items-card{
-  margin: 20px;
-  height: 380px;
-  width: 250px;
+  margin: 30px;
+  height: 360px;
+  width: 300px;
   border-radius: 10px;
   background-position: center;
   text-decoration: none;
 }
 
 .main-footer{
-  margin-top: 10px;
+  margin-top: 170px;
   background-color: #e3f2d4;
   height: 300px;
   display: flex;
   font-size: 20px;
+}
+
+.footer-items{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .map{
@@ -260,7 +366,11 @@ body{
 }
 
 .footer-values{
-  margin-left: 80px;
+  margin-left: 20px;
+}
+
+.social-media{
+  height: 30px;
 }
 }
 
@@ -304,9 +414,9 @@ body{
 }
 
 .body-items-card{
-  margin: 20px;
+  margin: 30px;
   height: 380px;
-  width: 250px;
+  width: 300px;
   border-radius: 10px;
   background-position: center;
   text-decoration: none;
@@ -350,6 +460,15 @@ body{
     color: #01090c;
     margin: 20px;
     font-size: 20px;
+}
+
+.body-items-card{
+  margin: 20px;
+  height: 380px;
+  width: 250px;
+  border-radius: 10px;
+  background-position: center;
+  text-decoration: none;
 }
 
 .main-footer{
