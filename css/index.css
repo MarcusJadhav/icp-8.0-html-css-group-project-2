@@ -61,6 +61,11 @@ body{
     font-size: 20px;
 }
 
+.menu-text:hover{
+  color: gray;
+  text-decoration: underline;
+}
+
 .main-body{
   height: 750px;
   
