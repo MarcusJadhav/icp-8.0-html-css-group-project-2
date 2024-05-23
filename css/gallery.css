@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Signika:wght@300..700&display=swap');
+
+body{
+    background-color: #fafafa;
+    margin: 0;
+}
+
+.heading{
+    text-align: center;
+    font-family: "Signika", sans-serif;
+    color:black;
+    font-size: 50px;
+}
+.head-text{
+    text-align: center;
+    background-color: orange;
+    color: black;
+    font-size: 30px;
+    font-family: "Signika",sans-serif;
+}
+.info {
+    text-align: center;
+    font-family: "Signika", sans-serif;
+    color:black;
+    font-size: 25px;
+}
+.vegies{
+    display:flex;
+    text-align: center;
+}
+
+.vegies-img{
+    height:300px;
+    width:400px;
+    justify-content: space-evenly;
+    margin: 10px;
+    border:solid gray 2px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+ 
+}
+.vegies-img:hover{
+    transform: 200ms;
+    box-shadow: 5px 5px 15px 10px rgb(89, 90, 77);
+
+}
+
+@media screen and (max-width: 600px) {
+    .heading{
+        text-align: center;
+        font-family: "Signika", sans-serif;
+        color:black;
+        font-size: 25px;
+    }
+    .head-text{
+        text-align: center;
+        background-color: orange;
+        color: black;
+        font-size: 20px;
+        font-family: "Signika",sans-serif;
+    }
+    .info {
+        text-align: center;
+        font-family: "Signika", sans-serif;
+        color:black;
+        font-size: 15px;
+    }
+    .vegies{
+        display:inline;
+        text-align: center;
+    }
+    
+    .vegies-img{
+        height:300px;
+        width:300px;
+        justify-content:center;
+        align-items: center;
+        margin: 10px;
+        border:solid gray 2px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+     
+    }
+    .vegies-img:hover{
+        transform: 200ms;
+        box-shadow: 5px 5px 15px 10px rgb(89, 90, 77);
+    
+    }
+
+    
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+    .heading{
+        text-align: center;
+        font-family: "Signika", sans-serif;
+        color:black;
+        font-size: 30px;
+    }
+    .head-text{
+        text-align: center;
+        background-color: orange;
+        color: black;
+        font-size: 25px;
+        font-family: "Signika",sans-serif;
+    }
+    .info {
+        text-align: center;
+        font-family: "Signika", sans-serif;
+        color:black;
+        font-size: 20px;
+    }
+    .vegies{
+        display:inline;
+        text-align: center;
+    }
+    
+    .vegies-img{
+        height:300px;
+        width:300px;
+        justify-content:center;
+        align-items: center;
+        margin: 10px;
+        border:solid gray 2px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+     
+    }
+    .vegies-img:hover{
+        transform: 200ms;
+        box-shadow: 5px 5px 15px 10px rgb(89, 90, 77);
+    
+    }
+
+}
+@media screen and (min-width: 993px) and (max-width: 1200px){
+    .heading{
+        text-align: center;
+        font-family: "Signika", sans-serif;
+        color:black;
+        font-size: 30px;
+    }
+    .head-text{
+        text-align: center;
+        background-color: orange;
+        color: black;
+        font-size: 25px;
+        font-family: "Signika",sans-serif;
+    }
+    .info {
+        text-align: center;
+        font-family: "Signika", sans-serif;
+        color:black;
+        font-size: 30px;
+    }
+    .vegies{
+        display:flex;
+        text-align: center;
+    }
+    
+    .vegies-img{
+        height:300px;
+        width:300px;
+        justify-content:center;
+        align-items: center;
+        margin: 10px;
+        border:solid gray 2px;
+        border-radius: 30px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+     
+    }
+    .vegies-img:hover{
+        transform: 200ms;
+        box-shadow: 5px 5px 15px 10px rgb(89, 90, 77);
+    
+    }
+
+}
