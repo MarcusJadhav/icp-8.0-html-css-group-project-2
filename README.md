@@ -1,4 +1,4 @@
-# Foodie Haven 
+# Foodie Haven 🍱
 
 Welcome to our Foodie Haven Our website is your one-stop destination of food products. Explore a variety delights from around the world, all conveniently showcased in one place. From fresh produce to gourmet treats, pantry staples to specialty ingredients, we've got it all.
 
@@ -6,7 +6,7 @@ Each product page offers detailed information, tantalizing images, and even cust
 
 ![Screenshot](./images/home-ss.png)
 
-# How to Contribute
+# How to Contribute  🤝
 
 We appreciate and welcome contributions from the community to help expand and improve this handbook. If you wish to contribute, follow these steps:
 
@@ -16,7 +16,7 @@ We appreciate and welcome contributions from the community to help expand and im
 
 
 
-# Contributors
+# Contributors 👏
 
 <a href="https://github.com/MarcusJadhav/icp-8.0-html-css-group-project-2/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MarcusJadhav/icp-8.0-html-css-group-project-2" />
