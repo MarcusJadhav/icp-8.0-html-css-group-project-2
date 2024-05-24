@@ -5,6 +5,7 @@
 body{
    background-color: #fafafaa9;
    margin: 0;
+   font-size: large;
 }
 .title{
   text-align: left;
@@ -18,8 +19,15 @@ body{
   width:200px;
 }
 #delux{
-  background-color: rgb(253, 246, 144);
+  background-color: #dff89b;
   text-decoration: tomato underline;
+}
+.card-view{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  height:420px;
+  width: 100%;
 }
 #card1{
   display: inline-block;
@@ -31,11 +39,9 @@ body{
   padding-right:200px;
 }
 #card{
-  display: inline-block;
   height:400px;
   width:380px;
   font-family: signika;
-  margin-left:65px;
   border: solid 1px black;
   box-shadow: 2px 5px 10px rgb(66, 64, 64) ;
   border-radius: 5px;
@@ -113,10 +119,14 @@ body{
     align-items: center;
 }
 
+
 .menu-title{
-  font-size: 22px;
-  margin-right: 360px;
+  font-size: 40px;
+  margin-left: 20px;
+  position: absolute;
+  left: 1%;
 }
+
 
 .menu-text{
     text-decoration: none;
@@ -124,6 +134,13 @@ body{
     margin: 20px;
     font-size: 20px;
 }
+.menu-text:hover{
+  color: #6d8654;
+  text-decoration: underline;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
 .main-footer{
   margin-top: 10px;
   background-color: #e3f2d4;

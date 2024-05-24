@@ -63,13 +63,13 @@ body{
     margin: 20px;
     font-size: 20px;
 }
-
 .menu-text:hover{
   color: #6d8654;
   text-decoration: underline;
   font-size: 25px;
   transition: 0.2s;
 }
+
 
 .main-body{
   height: 750px;
