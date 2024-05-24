@@ -214,6 +214,7 @@ body{
   .footer-items{
   display: flex;
   flex-wrap: wrap;
+  height: 250px;
   }
   
   .map{
@@ -240,6 +241,7 @@ body{
     background-color: #b3d88f;
     width: 100%;
     height: 60px;
+    
   }
 
   .footer-logos{
