@@ -2,3 +2,13 @@ body{
     margin:0px ;
     padding:0px;
 }
+.box{
+    width:400px;
+    background-color:#fff;
+    text-align: center;
+    padding:20px;
+    box-shadow: 0 0 10px 5px #ffd6cc;
+    transition: 1s;
+    margin:20px;
+    border-radius: 10px;
+}
