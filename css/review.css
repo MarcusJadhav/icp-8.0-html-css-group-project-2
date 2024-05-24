@@ -17,11 +17,15 @@ body{
     width:140px;
     border-radius: 50%;
     }
-    .box p{
+.box p{
     padding:15px 0;
     font-size: 20px;
     }
-    .box h2{
+.box h2{
     padding:15px 0;
     font-size: 30px;
+    }
+.wrapper{
+        display: flex;
+        justify-content:center;
     }
