@@ -27,6 +27,7 @@
 body{
    background-color: #fafafaa9;
    margin: 0;
+   position: relative;
 }
 
 .main-header{
@@ -51,7 +52,9 @@ body{
 
 .menu-title{
   font-size: 40px;
-  margin-right: 630px;
+  margin-left: 20px;
+  position: absolute;
+  left: 1%;
 }
 
 .menu-text{
