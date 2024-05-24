@@ -219,6 +219,191 @@ body {
     width: 40px;
     margin: 0 10px 0 10px;
   }
+
+  @media screen and (max-width: 600px) 
+  { 
+    .body{
+      position: relative;
+      
+    }
+  
+    .main-header{
+      height: 500px;
+      background-image: url("./../images/bg-img.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-blend-mode: saturation;
+      margin-bottom: 10px;
+  }
+  
+  .menu-items{
+      background-color: #e3f2d4;
+      height: 80px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .menu-title{
+    font-size: 40px;
+    margin-right: 60px;
+
+  }
+  
+  .menu-text{
+      display: none;
+  }
+
+  .product-card {
+    flex: 0 1 300px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius : 9px;
+    padding: 5px;
+    margin: 3px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    font-size: 11px;
+    height: 450px;
+   width: 50px;
+   margin-bottom: 50px;
+    
+
+}
+.product-title {
+  font-size: 14px;
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 1100px;
+
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  flex-direction: row;
+  margin-bottom: 1100px;
+ 
+}
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  flex-direction: row;
+  margin-top: 600px;
+  margin-bottom: 1100px;
+}
+.title{
+  text-align: center;
+  color: #62a80b;
+  text-wrap: 100px;
+}
+.container4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  flex-direction: row;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-bottom: 400px;
+}
+.video{
+  border: 1px solid #ccc;
+  border-radius : 9px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+ 
+  
+}
+.video:hover {
+  transform: 200ms;
+  box-shadow: 5px 5px 15px 10px #92938b;
+
+}
+.yt-video{
+height: 200px;
+width: 300px;
+}
+.product-image{
+height: 150px;
+width: 250px;
+}
+
+.product-body{
+  height: 90%;
+}
+  
+  .main-footer{
+  margin-top: 20px;
+  background-color: #e3f2d4;
+  height: 700px;
+  display: flex;
+  font-size: 20px;
+  flex-wrap: wrap;
+  }
+  
+  .footer-items{
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  }
+  
+  .map{
+  margin: 10px;
+  height: 250px;
+  width: 300px;
+  }
+  
+  .footer-values{
+  margin-left: 10px;
+  font-size: 14px;
+  }
+  
+  .social-media{
+  height: 29px;
+  }
+
+  .footer-nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: #b3d88f;
+    width: 100%;
+    height: 60px;
+  }
+
+  .footer-logos{
+    height: 40px;
+  }
+
+  .footer-logos:hover{
+    cursor: pointer;
+    height: 50px;
+    transition: 0.3s;
+    border-radius: 5px;
+    background-color: #e3f2d4;
+  }
+ }
   
         /* Mobile Devices */
 
@@ -270,6 +455,7 @@ body {
         .product-title {
           font-size: 14px;
         }
+
         .container1 {
           display: flex;
           flex-wrap: wrap;
@@ -298,7 +484,8 @@ body {
           align-items: center;
           height: 500px;
           flex-direction: row;
-          margin-top: 500px;
+          margin-top: 600px;
+          margin-bottom: 600px;
         }
         .title{
           text-align: center;
@@ -312,9 +499,9 @@ body {
           align-items: center;
           height: 400px;
           flex-direction: row;
-          margin-top: 10px;
+          margin-top: 30px;
           cursor: pointer;
-          margin-top: 300px;
+          margin-bottom: 400px;
         }
         .video{
           border: 1px solid #ccc;
@@ -386,7 +573,7 @@ body {
             font-size: 14px;
         }
             .product-card {
-              flex: 0 1 300px;
+              flex: 0 1 350px;
               background-color: #f9f9f9;
               border: 1px solid #ccc;
               border-radius : 9px;
@@ -434,6 +621,7 @@ body {
             height: 500px;
             flex-direction: row;
             margin-top: 500px;
+            margin-bottom: 600px;
           }
           .title{
             text-align: center;
@@ -449,7 +637,7 @@ body {
             flex-direction: row;
             margin-top: 10px;
             cursor: pointer;
-            margin-top: 300px;
+            margin-top: 30px;
           }
           .video{
             border: 1px solid #ccc;
@@ -472,7 +660,7 @@ body {
         }
         .product-image{
           height: 150px;
-          width: 250px;
+          width: 350px;
         }
         .main-footer{
           margin-top: 30px;
