@@ -147,30 +147,32 @@ body {
     font-size: 1em;
     margin: 20px;
     color: #777;
+    text-align:justify;
 }
 
 .product-date {
     font-size: 1.2em;
     margin: 10px 0;
-    color: #ee4d25;
+    color: #bb2803;
     text-align: left;
     display: flex;
-    justify-content: left;
+    justify-content:flex-start;
 }
 .calender{
     height: 25px;
-    display: flex;
-    
 }
+
 .product-author{
     text-align: right;
     justify-content: end;
     display: flex;
+    color: #3c262f;
 }
 .author{
-    height: 20px;
-    
+    height: 25px;
+    border-radius: 60%;
 }
+
 .title{
     text-align: center;
     color: #62a80b;
