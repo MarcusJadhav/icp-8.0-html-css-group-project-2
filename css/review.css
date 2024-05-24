@@ -2,6 +2,47 @@ body{
     margin:0px ;
     padding:0px;
 }
+
+.main-header{
+    height: 500px;
+    background-image: url("./../images/bg-img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: saturation;
+    margin-bottom: 10px;
+}
+
+.menu-items{
+    text-align: end;
+    cursor: pointer;
+    background-color: #e3f2d4;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu-title{
+  font-size: 40px;
+  margin-left: 20px;
+  position: absolute;
+  left: 1%;
+}
+
+.menu-text{
+    text-decoration: none;
+    color: #01090c;
+    margin: 20px;
+    font-size: 20px;
+}
+.menu-text:hover{
+  color: #6d8654;
+  text-decoration: underline;
+  font-size: 25px;
+  transition: 0.2s;
+}
+
 .box{
     width:400px;
     background-color:#fff;
