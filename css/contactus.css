@@ -1,0 +1,9 @@
+.sign-up-form{
+    width: 300px;
+    border: 2px solid;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background-color:bisque;
+    padding: 20px;
+    margin: 3% auto 0;
+    text-align: center;
+}
