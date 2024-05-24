@@ -3,35 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Page</title>
-    <style>
-    .sign-up-form{
-        width: 300px;
-        border: 2px solid;
-        box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
-        background-color: bisque;
-        padding: 20px;
-        margin: 8% auto 0;
-        text-align: center;
-    }
-    .sign-up-form h1 {
-        color: rgb(28, 75, 59);
-        margin-bottom: 30px;;
+    <title>Contact us Page</title>
+    <link rel="stylesheet" href="./../css/contactus.css">
 
-    }
-    </style>
 </head>
 <body>
+    <div class="container">
+        <div class="main-header">
+            <div class="menu-items">
+                <h1 class="menu-title cherry-swash-bold">Foodie Haven</h1>
+                <a class="menu-text signika" href="./../index.html">Home</a>
+                <a class="menu-text signika" href="./offer.html">Offers</a>
+                <a class="menu-text signika" href="./blog.html">Blog</a>
+                <a class="menu-text signika" href="./gallery.html">Gallery</a>
+                <a class="menu-text signika" href="./product.html">Products</a>
+                <a class="menu-text signika" href="./reviews.html">Reviews</a>
+                <a class="menu-text signika" href="./about.html">About Us</a>
+                <a class="menu-text signika" href="./contactus.html">Contact Us</a>
+            </div>
+        </div>
+
+        
     <div class="sign-up-form">
-        <h1>Sign Up Now</h1>
-    </div>
+        <h1>Contact Now</h1>
+        <p>Want more info about our product? Our team are available.</p>
     <form>
         <input type="Name" class="input-box" placeholder="First Name*">
         <input type="Name" class="input-box" placeholder="Last Name*">
         <input type="email" class="input-box" placeholder="Enter Email*">
-        <input type="number" class="input-box" placeholder="Enter Phone No*">
+        <input type="tel" class="input-box" placeholder="Enter Phone No*">
         <p><span><input type="checkbox" name=""></span> agree to the Term and Condesition</p>
+        <button type="button" class="sign-up-button">Sign-up</button>
+        <hr>
+
+        <p class="or">OR</p>
+        <button type="button" class="google-button">Login-with-Google</button>
+        <p>Do you have an account? <a href="#"> Sign in</a></p>
 
     </form>
+
+
+   
+
+</div>
+
 </body>
 </html>
