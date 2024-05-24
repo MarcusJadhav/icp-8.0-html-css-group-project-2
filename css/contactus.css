@@ -37,3 +37,7 @@ button{
 .google-button{
     background-color: #5bc7eb;
 }
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
