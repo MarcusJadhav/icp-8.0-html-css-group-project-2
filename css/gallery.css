@@ -4,6 +4,7 @@
 body{
     background-color: #fafafa;
     margin: 0;
+    padding: 0;
 }
 
 .heading{
@@ -28,11 +29,13 @@ body{
 .vegies{
     display:flex;
     text-align: center;
+     gap: 20px;
+    padding: 10px;
 }
 
 .vegies-img{
-    height:300px;
-    width:400px;
+    height:200px;
+    width:200px;
     justify-content: space-evenly;
     margin: 10px;
     border:solid gray 2px;
@@ -45,6 +48,29 @@ body{
     transform: 200ms;
     box-shadow: 5px 5px 15px 10px rgb(89, 90, 77);
 
+}
+.vegies-items{
+    flex: 1 1 calc(25% - 20px);
+    border: 1px solid gray;
+    border-radius: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin:10px;
+    justify-content: center;
+}
+
+.vegies-items:hover{
+    transform: 200ms;
+    box-shadow: 5px 5px 15px 10px rgb(160, 167, 85);
+
+}
+h2{
+    font-family: "Signika", sans-serif;
+}
+.vegies-desci{
+    font-family: "Signika", sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -73,8 +99,8 @@ body{
     }
     
     .vegies-img{
-        height:300px;
-        width:300px;
+        height:200px;
+        width:200px;
         justify-content:center;
         align-items: center;
         margin: 10px;
