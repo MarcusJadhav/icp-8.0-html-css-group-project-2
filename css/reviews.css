@@ -119,3 +119,32 @@ body{
         background-color: #ccffdd;
         transition: 1s;
   }
+
+  .main-footer{
+    margin-top: 10px;
+    background-color: #e3f2d4;
+    height: 300px;
+    display: flex;
+    font-size: 20px;
+  }
+  
+  .footer-nav-bar{
+    display: none;
+  }
+  
+  .footer-items{
+    display: flex;
+  }
+  
+  .map{
+    margin: 10px;
+  }
+  
+  .footer-values{
+    margin-left: 80px;
+  }
+  
+  .social-media{
+    width: 40px;
+    margin: 0 10px 0 10px;
+  }
