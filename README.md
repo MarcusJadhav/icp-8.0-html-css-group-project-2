@@ -11,7 +11,7 @@ Each product page offers detailed information, tantalizing images, and even cust
 
 # How to Contribute  🤝
 
-We appreciate and welcome contributions from the community to help expand and improve this handbook. If you wish to contribute, follow these steps:
+We appreciate and welcome contributions from the community to help expand and improve this site. If you wish to contribute, follow these steps:
 
 1. Fork this repository to your GitHub account.
 2. Implement your changes, add new content, or fix any existing issues.
