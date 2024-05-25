@@ -209,7 +209,9 @@ body {
     font-size: 20px;
   }
   
-  
+  .footer-nav-bar{
+    display: none;
+  }
   
   .footer-values{
     margin-left: 80px;
@@ -395,7 +397,10 @@ width: 250px;
   .footer-logos{
     height: 40px;
   }
-
+  
+.footer-logos{
+  display: none;
+}
   .footer-logos:hover{
     cursor: pointer;
     height: 50px;
@@ -673,6 +678,10 @@ width: 250px;
           font-size: 20px;
           margin-top: 200px;
         }
+        
+.footer-logos{
+  display: none;
+}
         .product-body{
           height: 90%;
         }
@@ -763,6 +772,10 @@ width: 250px;
           display: flex;
           font-size: 20px;
         }
+        
+        .footer-logos{
+  display: none;
+        }
         .product-body{
           height: 90%;
         }
@@ -851,6 +864,10 @@ width: 250px;
           display: flex;
           font-size: 20px;
         }
+        
+.footer-logos{
+  display: none;
+}
         .product-body{
           height: 90%;
         }
